@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/userpage.css">
+    <title>UserDetails</title>
+    <button type="click" onclick="confirmLogout()">Logout</button>
+  </head>
+  <body>
+    <h1 class="mt-5" id="welcomeMessage"></h1>
+    <div id="userDetails">
+        <!-- User details will be displayed here -->
+    </div>
+
+    <form>
+        <table id="employeeTable">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Position</th>
+                    <th>Salary</th>
+                    <th>Project</th>
+                </tr>
+            </thead>
+            <tbody id="employeeTableBody">
+                <!-- Employee details will be displayed here -->
+            </tbody>
+        </table>
+    </form>
+
+    <script src="/userpage.js"></script>
+</body>
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Authentication</title>
+    <link rel="stylesheet" href="userlogin.css">
+</head>
+
+<body>
+    <div id="container">
+        <form id="loginForm" class="form">
+            <h2>Login</h2>
+
+            <label for="id">Emp ID:</label>
+            <input type="number" id="loginId" placeholder="3 digit id" required />
+            <span id="id_error" style="display: none"></span>
+
+            <label for="loginPassword">Password:</label>
+            <input type="password" id="loginPassword" name="loginPassword" required>
+
+            <button type="button" onclick="login()">Login</button>
+
+            <p>Don't have an account? <span onclick="toggleForm('registerForm')">Register</span></p>
+        </form>
+
+        <form id="registerForm" class="form" style="display:none;">
+            <h2>Register</h2>
+            <p id="invalid"></p>
+
+            <label for="id">Emp ID:</label>
+            <input type="number" id="id" placeholder="3 digit id" required />
+            <span id="id_error" style="display: none"></span>
+
+            <label for="name">Name:</label>
+            <input type="text" id="name" required />
+
+            <label for="email">Email</label>
+            <input type="email" id="email" required />
+            <span id="email_error" style="display: none"></span>
+
+            <label for="position">Position</label>
+            <input type="text" id="position" required />
+
+            <label for="password">Password</label>
+            <input type="text" id="password" required />
+
+            <button type="button" onclick="register()">Register</button>
+
+            <p>Already have an account? <span onclick="toggleForm('loginForm')">Login</span></p>
+        </form>
+    </div>
+
+    <script src="userlogin.js"></script>
+</body>
+
+</html>

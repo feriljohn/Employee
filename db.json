@@ -1,0 +1,98 @@
+{
+  "employees": [
+    {
+      "id": "111",
+      "password": "111",
+      "role": "admin"
+    },
+    {
+      "id": "435",
+      "name": "amor",
+      "email": "amor@gmail.com",
+      "position": "devops",
+      "password": "00000",
+      "salary": "890000",
+      "role": "user",
+      "projects": [
+        "werf",
+        "techservise",
+        "albertson",
+        "",
+        ""
+      ]
+    },
+    {
+      "id": "546",
+      "name": "carol",
+      "email": "carol@gmail.com",
+      "position": "developer",
+      "password": "00000",
+      "salary": "900000",
+      "projects": [
+        "techservise",
+        "walmart"
+      ],
+      "role": "user"
+    },
+    {
+      "id": "900",
+      "name": "feril john",
+      "email": "feriljohn007@gmail.com",
+      "position": "manager",
+      "password": "900",
+      "salary": "800000",
+      "projects": [
+        "albertson"
+      ],
+      "role": "user"
+    },
+    {
+      "id": "878",
+      "name": "francis",
+      "email": "francis@gmail.com",
+      "position": "developer",
+      "password": "878",
+      "salary": "7899",
+      "projects": [
+        "techservise"
+      ],
+      "role": "user"
+    },
+    {
+      "id": "989",
+      "name": "aswant",
+      "email": "dff@gmail.com",
+      "position": "soft",
+      "password": "989",
+      "salary": "678900",
+      "projects": [],
+      "role": "user"
+    },
+    {
+      "id": "888",
+      "name": "grace",
+      "email": "grace@gmail.com",
+      "position": "ceo",
+      "password": "888",
+      "salary": "190000",
+      "projects": [
+        "techservise",
+        "",
+        ""
+      ],
+      "role": "user"
+    },
+    {
+      "id": "666",
+      "name": "jopan",
+      "email": "jopan@gmail.com",
+      "position": "manager",
+      "password": "666",
+      "salary": "97000",
+      "projects": [
+        "albertson"
+      ],
+      "role": "user"
+    }
+  ]
+}
